@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>蜜桃社交</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: "微软雅黑", sans-serif;
+            background: url("https://cdn.phototourl.com/free/2026-04-09-54ae1692-f1d7-4d6c-a9a7-9108d9c510a7.jpg") center/cover no-repeat fixed;
+            color: #fff;
+            text-align: center;
+            padding: 20px 15px;
+        }
+        .top-title {
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 8px #ff00ff;
+            margin-bottom: 8px;
+        }
+        .sub-title {
+            font-size: 20px;
+            color: #00ffff;
+            margin-bottom: 15px;
+        }
+        /* 16:9 视频容器 */
+        .video-wrap {
+            width: 100%;
+            position: relative;
+            padding-top: 56.25%;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .main-img {
+            display: block;
+            max-width: 100%;
+            height: auto !important;
+            margin: 0 auto 25px;
+            background: transparent !important;
+            border: 0 !important;
+            outline: none !important;
+            padding: 0 !important;
+        }
+        .desc {
+            font-size: 15px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            width: 100%;
+            padding: 16px 0;
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 19px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .bottom-title {
+            font-size: 24px;
+            color: #ff66cc;
+            text-shadow: 0 0 8px #ff00cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-title">百万原创视频博主</div>
+    <div class="sub-title">海量成人视频</div>
+
+    <div class="video-wrap">
+        <video autoplay muted controls playsinline>
+            <source src="https://cropgif.net/videos/1775724821181-4af24845-1bbe-479a-be56-10e4c6491c4b.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <img class="main-img" src="https://cdn.phototourl.com/free/2026-04-09-a75bfe0e-c539-40b1-8836-d5601e49c1d4.png" alt="">
+
+    <div class="desc">精彩内容等你体验</div>
+
+    <a href="https://pan.tenire.com/down.php/55f9edbe30b09437ce1bf8953ae500b6.apk" class="download-btn" target="_blank">
+        立即下载
+    </a>
+
+    <div class="bottom-title">稀缺内容</div>
+</body>
+</html>
